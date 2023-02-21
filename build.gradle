@@ -1,0 +1,13 @@
+plugins {
+  id 'org.kordamp.gradle.markdown' version '2.2.0'
+  id 'application'
+}
+application {
+  mainClass = "Main"
+}
+markdownToHtml {
+  sourceDir = file('src/main/resources')
+  fencedCodeBlocks = true
+  hardwraps = true
+  autoLinks = true
+}
