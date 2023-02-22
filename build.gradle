@@ -5,6 +5,10 @@ plugins {
 application {
   mainClass = "Main"
 }
+task copyReadMe(type: Copy, description: 'Copies the readMe file to prepare for archival') {
+    from 'README.md'
+    into file('src/main/resources')
+}
 markdownToHtml {
   sourceDir = file('src/main/resources')
   fencedCodeBlocks = true
