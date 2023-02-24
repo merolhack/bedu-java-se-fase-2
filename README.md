@@ -26,7 +26,29 @@ gradle build
 java -jar build/libs/e2.jar
 ```
 
-## Reto ##
+* Ejemplo 4:
+
+```bash
+cd s1/e4
+gradle run
+```
+
+### Reto ###
+
+* Reto 1:
+
+```bash
+cd s1/r1
+gradle build
+java -jar build/libs/r1.jar
+```
+
+* Reto 2:
+
+```bash
+cd s1/r2
+gradle run
+```
 
 ### Gradle plugins ###
 
