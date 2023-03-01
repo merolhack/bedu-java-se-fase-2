@@ -61,6 +61,37 @@ gradle copyReadMe
 gradle markdownToHtml
 ```
 
-### Resources ###
+## Sesión 2 ##
+
+Tipos de patrones de diseño:
+
+* Creación: Diferentes maneras de crear objetos o grupos de objetos
+* Estructura: Se utilizan para mejorar la modularidad, la flexibilidad, la extensibilidad y la reutilización del código.
+* Comportamiento: 
+
+### Creación ###
+
+Singleton: Es una referencia única a la clase
+
+```bash
+cd s2/e1
+gradle build && java -jar build/libs/e1.jar
+```
+
+### Estructura ###
+
+```bash
+cd s2/e2
+gradle build && java -jar build/libs/e2.jar
+```
+
+### Adapter ###
+
+```bash
+cd s2/r1
+gradle build && java -jar build/libs/r1.jar
+```
+
+## Recursos ##
 
 * Gradle configuration example: https://stackoverflow.com/q/47470162
