@@ -3,15 +3,15 @@ BEDU Java SE: Sesión 1 Postwork
 
 Copiar archivos con Gradle
 
-~~~bash
+```bash
 gradle copyReadMe
-~~~
+```
 
 Generar HTML a partir de un archivo .md (markdown):
 
-~~~bash
+```bash
 gradle markdownToHtml
-~~~
+```
 
 ### Resources: ###
 
