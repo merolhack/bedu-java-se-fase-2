@@ -92,6 +92,13 @@ cd s2/r1
 gradle build && java -jar build/libs/r1.jar
 ```
 
+### Command ###
+
+```bash
+cd s2/e3
+gradle build && java -jar build/libs/e3.jar
+```
+
 ## Recursos ##
 
 * Gradle configuration example: https://stackoverflow.com/q/47470162
