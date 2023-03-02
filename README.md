@@ -65,11 +65,11 @@ gradle markdownToHtml
 
 Tipos de patrones de diseño:
 
-* Creación: Diferentes maneras de crear objetos o grupos de objetos
-* Estructura: Se utilizan para mejorar la modularidad, la flexibilidad, la extensibilidad y la reutilización del código.
-* Comportamiento: 
+* Creación: proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización de código existente.
+* Estructura: explican cómo ensamblar objetos y clases en estructuras más grandes a la vez que se mantiene la flexibilidad y eficiencia de la estructura.
+* Comportamiento: se encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos.
 
-### Creación ###
+### Ejercicio 1: Creación ###
 
 Singleton: Es una referencia única a la clase
 
@@ -78,25 +78,34 @@ cd s2/e1
 gradle build && java -jar build/libs/e1.jar
 ```
 
-### Estructura ###
+### Ejercicio 2: Estructura ###
 
 ```bash
 cd s2/e2
 gradle build && java -jar build/libs/e2.jar
 ```
 
-### Adapter ###
+### Reto 1: Adapter ###
 
 ```bash
 cd s2/r1
 gradle build && java -jar build/libs/r1.jar
 ```
 
-### Command ###
+### Ejercicio 3: Command ###
 
 ```bash
 cd s2/e3
 gradle build && java -jar build/libs/e3.jar
+```
+
+### PostWork ###
+
+Desarrollar aplicación para una cadena de helados:
+
+```bash
+cd s2/pw
+gradle build && java -jar build/libs/pw.jar
 ```
 
 ## Recursos ##
